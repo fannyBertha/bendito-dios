@@ -62,3 +62,41 @@ h1 {
 .entry-published {
     color: rgb(129, 129, 129)
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.grid-item {
+    border: 1px solid #990c0c;
+    padding: 20px;
+}
+
+/*.grid-item:first {
+    grid-column-start: 10px;
+    grid-column-end: 30px;
+} */
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 4;
+}
+
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item9 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
