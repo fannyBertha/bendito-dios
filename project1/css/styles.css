@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'AvenirNextLTPro-Bold';
+	src: url('fonts/AvenirNextLTPro-Bold.eot');
+	src: url('fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-BoldIt';
+	src: url('fonts/AvenirNextLTPro-BoldIt.eot');
+	src: url('fonts/AvenirNextLTPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-BoldIt.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-BoldIt.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-BoldIt.svg#AvenirNextLTPro-BoldIt') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Medium';
+	src: url('fonts/AvenirNextLTPro-Medium.eot');
+	src: url('fonts/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-Medium.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: #d2ac58;
+  }
+  a:visited {
+    color: #666666;
+  }
+  a:hover, a:active, a:focus {
+    color:#489bff;
+  }
+
+h1 {
+    font-family: 'AvenirNextLTPro-Bold';
+    font-size: 50px;
+    color: #333333;
+    letter-spacing: -1;
+    line-height: 58px;
+  }
+
+
+h2 {
+    font-family: 'AvenirNextLTPro-Bold';
+    font-size: 30px;
+  }
+  
+p {
+    font-family: 'AvenirNextLTPro-Medium';
+    font-size: 18px;
+    color: #A9A9A9;
+    letter-spacing: 0;
+    line-height: 31px;
+  }
+
+.container {
+    background-color: #ffffff;
+    width: 1084px;
+    align-content: center;
+    margin: auto;
+    overflow: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 18% auto 62%;
+    grid-gap: 0px;
+  }
+
+
+.header {
+    padding-top: 70px;
+    padding-bottom: 36px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    }
+}
+
+.nav {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+    position: right;
+    top: 0px;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    text-align: center;
+    color: #a9a9a9;
+}
+
+.nav ul li {
+        color: #a9a9a9;
+        margin: 0px;
+}
+
+.copy {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+}
+
+.illustration {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    }
+}
+
+background: #489BFF;
+box-shadow: 0 9px 29px 0 rgba(0,0,0,0.09);
+border-radius: 4.32px;
+font-family: AvenirNext-DemiBold;
+font-size: 14.4px;
+color: #FFFFFF;
+letter-spacing: 0;
