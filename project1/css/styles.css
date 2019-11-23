@@ -1,32 +1,32 @@
 @font-face {
     font-family: 'AvenirNextLTPro-Bold';
-	src: url('fonts/AvenirNextLTPro-Bold.eot');
-	src: url('fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
-		url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
-		url('fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+	src: url('../fonts/AvenirNextLTPro-Bold.eot');
+	src: url('../fonts/AvenirNextLTPro-Bold.otf') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+		url('../fonts/AvenirNextLTPro-Bold.svg') format('svg');
 	font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AvenirNextLTPro-BoldIt';
-	src: url('fonts/AvenirNextLTPro-BoldIt.eot');
-	src: url('fonts/AvenirNextLTPro-BoldIt.eot?#iefix') format('embedded-opentype'),
-		url('fonts/AvenirNextLTPro-BoldIt.woff') format('woff'),
-		url('fonts/AvenirNextLTPro-BoldIt.ttf') format('truetype'),
-		url('fonts/AvenirNextLTPro-BoldIt.svg#AvenirNextLTPro-BoldIt') format('svg');
+	src: url('../fonts/AvenirNextLTPro-BoldIt.eot');
+	src: url('../fonts/AvenirNextLTPro-BoldIt.otf') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-BoldIt.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-BoldIt.ttf') format('truetype'),
+		url('../fonts/AvenirNextLTPro-BoldIt.svg') format('svg');
 	font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AvenirNextLTPro-Medium';
-	src: url('fonts/AvenirNextLTPro-Medium.eot');
-	src: url('fonts/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
-		url('fonts/AvenirNextLTPro-Medium.woff') format('woff'),
-		url('fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
-		url('fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+	src: url('../fonts/AvenirNextLTPro-Medium.eot');
+	src: url('../fonts/AvenirNextLTPro-Medium.otf') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Medium.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
+		url('../fonts/AvenirNextLTPro-Medium.svg') format('svg');
 	font-weight: normal;
     font-style: normal;
 }
@@ -63,8 +63,16 @@ p {
     line-height: 31px;
   }
 
+body {
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F1F8FB;
+    font-family: 'AvenirNextLTPro-Medium';
+    color: #a9a9a9;
+}  
+
 .container {
-    background-color: #ffffff;
     width: 1084px;
     align-content: center;
     margin: auto;
@@ -79,7 +87,6 @@ p {
 
 
 .header {
-    padding-top: 70px;
     padding-bottom: 36px;
     display: grid;
     grid-column-start: 1;
@@ -125,10 +132,28 @@ p {
     }
 }
 
-background: #489BFF;
-box-shadow: 0 9px 29px 0 rgba(0,0,0,0.09);
-border-radius: 4.32px;
-font-family: AvenirNext-DemiBold;
-font-size: 14.4px;
-color: #FFFFFF;
-letter-spacing: 0;
+button {
+    background-color: #489BFF;
+    box-shadow: 0 9px 29px 0 rgba(0,0,0,0.09);
+    font-family: 'AvenirNextLTPro-Medium';
+    color: #ffffff;
+    width: 160px;
+    height: 49px;
+    border-radius: 4.32px;
+    font-size: 14.4px;
+    letter-spacing: 0;
+}
+
+.alt {
+    background-color: Transparent;
+    border:1 solid #d2ac58;
+    box-shadow: 0 9px 29px 0 rgba(0,0,0,0.09);
+    font-family: 'AvenirNextLTPro-Medium';
+    color: #d2ac58;
+    width: 160px;
+    height: 49px;
+    border-radius: 4.32px;
+    font-size: 14.4px;
+    letter-spacing: 0;
+    margin-left: 15px;
+}
